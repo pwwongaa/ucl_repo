@@ -18,7 +18,7 @@ A personal practice draft project on bulk/pseudobulk transcriptomics analysis, f
 ## 🧬 Analysis Steps
 
 1. Load expression and metadata tables  
-2. Preprocess and harmonise sample IDs  
+2. Preprocess and harmonise data and structures
 3. Perform **pseudobulk differential expression (DE) analysis**  
    - Compare AD vs. Control in astrocytes  
    - Focus on AD-related genes (e.g. `APOE`)  
