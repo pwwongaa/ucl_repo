@@ -45,7 +45,7 @@ cd ucl_repo
 
 ```bash
 #Create and activate the Conda environment:
-conda env create -f environment.yml
+conda env create -n rnaseq_analysis -f environment.yaml
 
 conda activate rnasea_analysis
 ```
