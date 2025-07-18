@@ -12,6 +12,7 @@ A personal practice draft project on bulk/pseudobulk transcriptomics analysis, f
 - Human entorhinal cortex  
 - Single-nucleus RNA-seq (snRNA-seq)  
 - Raw counts aggregated into pseudobulk format for AD vs. control groups in the astrocyte cell type
+- Processed into average expression profile of astrocytes in each patient sample
 
 ---
 
