@@ -36,8 +36,42 @@ A personal practice draft project on bulk/pseudobulk transcriptomics analysis, f
 ---
 
 ## ⚙️ Setup
-
+d
 ### Clone the repository:
 ```bash
 git clone https://github.com/your-username/ucl_repo.git
 cd ucl_repo
+```
+
+```bash
+#Create and activate the Conda environment:
+conda env create -f environment.yml
+
+conda activate rnasea_analysis
+```
+
+### Default input files (already included in data/):
+```bash
+GSE138852_pseudobulk_counts.csv
+GSE138852_pseudobulk_metadata.csv
+```
+- If using your own data, update the file paths in main.py or set the environment variables:
+- EXPR_FILE and META_FILE.
+
+## 🚀 Run the Analysis
+
+```bash
+python main.py
+```
+
+## 🔧 Further Development
+
+Expand analysis to include additional cell types
+Add new visualisation and filtering functions
+Adapt the pipeline to start from raw transcriptomics FASTQ files on HPC systems
+
+
+Reference
+
+Grubman et al., Nature Neuroscience (2019), PMID: 31768052
+https://www.nature.com/articles/s41598-021-83872-z#Sec2
