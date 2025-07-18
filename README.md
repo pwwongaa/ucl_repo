@@ -57,11 +57,15 @@ GSE138852_pseudobulk_metadata.csv
 ```
 - If using your own data, update the file paths in main.py or set the environment variables: EXPR_FILE and META_FILE.
 
+---
+
 ## 🚀 Run the Analysis
 
 ```bash
 python main.py
 ```
+
+---
 
 ## 🔧 Further Development
 
@@ -69,6 +73,7 @@ python main.py
 - Add new visualisation and filtering functions
 - Adapt the pipeline to start from raw transcriptomics FASTQ files on HPC systems
 
+---
 
 ## 📚 Reference
 
