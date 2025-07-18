@@ -29,12 +29,6 @@ A personal practice draft project on bulk/pseudobulk transcriptomics analysis, f
 
 ---
 
-## 🔍 Primary Finding
-
-- `APOE` is found to be **downregulated** in Alzheimer's disease astrocyte subpopulations selected for analysis.
-
----
-
 ## ⚙️ Setup
 d
 ### Clone the repository:
@@ -69,6 +63,7 @@ python main.py
 
 ## 🔧 Further Development
 
+- Improve the analysis process and parameters
 - Expand analysis to include additional cell types
 - Add new visualisation and filtering functions
 - Adapt the pipeline to start from raw transcriptomics FASTQ files on HPC systems
